@@ -1,0 +1,2536 @@
+{
+ "fetched": "2026-11-07T10:30:35.805Z",
+ "products": [
+  {
+   "id": 1,
+   "sku": "VP-001",
+   "slug": "holland-barrett-vitamin-d3-400-iu-10-g-90-tabletka",
+   "name": "Holland & Barrett Vitamin D3 400 IU (10µg)",
+   "brand": "Holland & Barrett",
+   "pack": "90 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 120000,
+   "stock": 7,
+   "batches": [
+    {
+     "exp": "2028-05",
+     "qty": 3,
+     "months": 18,
+     "disc": 5,
+     "expDisc": 0,
+     "stockDisc": 5,
+     "price": 114000,
+     "reasons": [
+      "stock"
+     ]
+    },
+    {
+     "exp": "2028-07",
+     "qty": 4,
+     "months": 20,
+     "disc": 5,
+     "expDisc": 0,
+     "stockDisc": 5,
+     "price": 114000,
+     "reasons": [
+      "stock"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "D3 vitamini suyaklar, mushaklar va immunitetning normal holatini saqlashga hissa qo'shadi. Kuniga 1 ta, vegetarianlar uchun mos.",
+    "ru": "Витамин D3 способствует поддержанию нормального состояния костей, мышц и иммунитета. 1 таблетка в день, подходит вегетарианцам.",
+    "en": "Vitamin D3 contributes to the maintenance of normal bones, muscle function and immunity. One a day, vegetarian."
+   },
+   "img": "img/0.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 114000,
+   "maxDisc": 5,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 2,
+   "sku": "VP-002",
+   "slug": "holland-barrett-vitamin-d3-400-iu-10-g-120-tabletka",
+   "name": "Holland & Barrett Vitamin D3 400 IU (10µg)",
+   "brand": "Holland & Barrett",
+   "pack": "120 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 135000,
+   "stock": 5,
+   "batches": [
+    {
+     "exp": "2027-11",
+     "qty": 1,
+     "months": 12,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 122000,
+     "reasons": [
+      "expiry"
+     ]
+    },
+    {
+     "exp": "2028-05",
+     "qty": 4,
+     "months": 18,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 135000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Kundalik D3 vitamini: suyak, mushak va immun tizimini qo'llab-quvvatlaydi. Qish oylarida ayniqsa dolzarb.",
+    "ru": "Ежедневный витамин D3 для поддержки костей, мышц и иммунной системы. Особенно актуален зимой.",
+    "en": "Everyday vitamin D3 for bones, muscles and immune support. Especially relevant in winter months."
+   },
+   "img": "img/1.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 122000,
+   "maxDisc": 10,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 3,
+   "sku": "VP-003",
+   "slug": "holland-barrett-fat-metaboliser-60-tabletka",
+   "name": "Holland & Barrett Fat Metaboliser",
+   "brand": "Holland & Barrett",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "weight",
+    "b"
+   ],
+   "daily": "2 tabletka",
+   "price": 220000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2028-06",
+     "qty": 3,
+     "months": 19,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 220000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Yashil choy ekstrakti, B6 vitamini, rux, karnitin va xrom. Xrom makronutrientlar almashinuviga hissa qo'shadi. Sog'lom ovqatlanish va harakat bilan birga.",
+    "ru": "Экстракт зелёного чая, витамин B6, цинк, карнитин и хром. Хром способствует нормальному обмену макронутриентов. В сочетании с питанием и активностью.",
+    "en": "Green tea extract with vitamin B6, zinc, carnitine and chromium. Chromium contributes to normal macronutrient metabolism."
+   },
+   "img": "img/2.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 220000,
+   "maxDisc": 0,
+   "goals": [
+    "energiya",
+    "sport"
+   ]
+  },
+  {
+   "id": 4,
+   "sku": "VP-004",
+   "slug": "holland-barrett-fat-metaboliser-120-tabletka",
+   "name": "Holland & Barrett Fat Metaboliser",
+   "brand": "Holland & Barrett",
+   "pack": "120 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "weight",
+    "b"
+   ],
+   "daily": "2 tabletka",
+   "price": 290000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2029-01",
+     "qty": 3,
+     "months": 26,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 290000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Yashil choy, B6 vitamini va xrom pikolinat. B6 energiya almashinuvini qo'llab-quvvatlaydi va charchoqni kamaytirishga yordam beradi.",
+    "ru": "Зелёный чай, витамин B6 и пиколинат хрома. B6 поддерживает энергетический обмен и помогает уменьшить усталость.",
+    "en": "Green tea, vitamin B6 and chromium picolinate. B6 supports energy-yielding metabolism and helps reduce tiredness."
+   },
+   "img": "img/3.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 290000,
+   "maxDisc": 0,
+   "goals": [
+    "energiya",
+    "sport"
+   ]
+  },
+  {
+   "id": 5,
+   "sku": "VP-005",
+   "slug": "holland-barrett-complete-vitamin-b-complex-120-tabletka",
+   "name": "Holland & Barrett Complete Vitamin B Complex",
+   "brand": "Holland & Barrett",
+   "pack": "120 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "b"
+   ],
+   "daily": "1 tabletka",
+   "price": 110000,
+   "stock": 5,
+   "batches": [
+    {
+     "exp": "2027-05",
+     "qty": 3,
+     "months": 6,
+     "disc": 30,
+     "expDisc": 30,
+     "stockDisc": 0,
+     "price": 77000,
+     "reasons": [
+      "expiry"
+     ]
+    },
+    {
+     "exp": "2027-12",
+     "qty": 2,
+     "months": 13,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 110000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "8 ta B vitamini bir tabletkada: B1, B2, B3, B5, B6, biotin, foliy kislota va B12. Energiya almashinuvi va asab tizimi uchun. Vegan.",
+    "ru": "8 витаминов группы B в одной таблетке: B1, B2, B3, B5, B6, биотин, фолиевая кислота и B12. Для энергетического обмена и нервной системы.",
+    "en": "Eight B vitamins in one tablet: B1, B2, B3, B5, B6, biotin, folic acid and B12. Vegan."
+   },
+   "img": "img/4.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 77000,
+   "maxDisc": 30,
+   "goals": [
+    "energiya"
+   ]
+  },
+  {
+   "id": 6,
+   "sku": "VP-006",
+   "slug": "holland-barrett-calcium-magnesium-vitamin-d-60-tabletka",
+   "name": "Holland & Barrett Calcium + Magnesium & Vitamin D",
+   "brand": "Holland & Barrett",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "calcium",
+    "magnesium",
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 125000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-08",
+     "qty": 1,
+     "months": 21,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 125000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Kalsiy, magniy va D vitamini birgalikda suyak va mushaklarning normal ishlashini qo'llab-quvvatlaydi. Magniy charchoqni kamaytirishga yordam beradi.",
+    "ru": "Кальций, магний и витамин D поддерживают нормальную работу костей и мышц. Магний помогает уменьшить усталость.",
+    "en": "Calcium, magnesium and vitamin D together support normal bones and muscle function."
+   },
+   "img": "img/5.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 125000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya",
+    "suyak",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 7,
+   "sku": "VP-007",
+   "slug": "holland-barrett-calcium-magnesium-vitamin-d-180-tabletka",
+   "name": "Holland & Barrett Calcium + Magnesium & Vitamin D",
+   "brand": "Holland & Barrett",
+   "pack": "180 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "calcium",
+    "magnesium",
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 250000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-08",
+     "qty": 1,
+     "months": 21,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 250000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Suyak, mushak va energiya uchun muvozanatli kompleks. 180 tabletka — taxminan 6 oylik qadoq.",
+    "ru": "Сбалансированный комплекс для костей, мышц и энергии. 180 таблеток — примерно на 6 месяцев.",
+    "en": "Balanced blend for bones, muscles and energy. 180 tablets, about a 6-month supply."
+   },
+   "img": "img/6.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 250000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya",
+    "suyak",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 8,
+   "sku": "VP-008",
+   "slug": "h-b-abc-z-multivits-minerals-60-tabletka",
+   "name": "H&B ABC-Z Multivits & Minerals",
+   "brand": "Holland & Barrett",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka",
+   "price": 120000,
+   "stock": 5,
+   "batches": [
+    {
+     "exp": "2027-12",
+     "qty": 5,
+     "months": 13,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 120000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "23 ta muhim vitamin va mineral bir kunlik tabletkada. Energiya va immunitetni qo'llab-quvvatlash uchun.",
+    "ru": "23 важных витамина и минерала в одной таблетке в день. Для энергии и иммунитета.",
+    "en": "23 essential vitamins and minerals in one daily tablet."
+   },
+   "img": "img/7.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 120000,
+   "maxDisc": 0,
+   "goals": []
+  },
+  {
+   "id": 9,
+   "sku": "VP-009",
+   "slug": "h-b-abc-to-z-multivitamins-30-tabletka",
+   "name": "H&B ABC to Z Multivitamins",
+   "brand": "Holland & Barrett",
+   "pack": "30 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka",
+   "price": 100000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2027-08",
+     "qty": 3,
+     "months": 9,
+     "disc": 20,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 80000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "A dan Z gacha: 23 vitamin va mineral. 30 kunlik qulay qadoq.",
+    "ru": "От A до Z: 23 витамина и минерала. Удобная упаковка на 30 дней.",
+    "en": "A to Z: 23 vitamins and minerals. Handy 30-day pack."
+   },
+   "img": "img/8.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 80000,
+   "maxDisc": 20,
+   "goals": []
+  },
+  {
+   "id": 10,
+   "sku": "VP-010",
+   "slug": "holland-barrett-pure-cod-liver-oil-500mg-60-kapsula",
+   "name": "Holland & Barrett Pure Cod Liver Oil 500mg",
+   "brand": "Holland & Barrett",
+   "pack": "60 kapsula",
+   "form": "caps",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "omega3"
+   ],
+   "daily": "1 kapsula",
+   "price": 127000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2029-02",
+     "qty": 2,
+     "months": 27,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 127000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Chuqur dengiz baliqlari jigar yog'i: EPA va DHA omega-3 kislotalari, A va D vitaminlari. DHA ko'rish va miya faoliyatini saqlashga hissa qo'shadi.",
+    "ru": "Рыбий жир из печени трески: омега-3 EPA и DHA, витамины A и D. DHA способствует поддержанию нормального зрения и работы мозга.",
+    "en": "Cod liver oil rich in omega-3 EPA and DHA, plus vitamins A and D."
+   },
+   "img": "img/9.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 127000,
+   "maxDisc": 0,
+   "goals": [
+    "miya"
+   ]
+  },
+  {
+   "id": 11,
+   "sku": "VP-011",
+   "slug": "holland-barrett-live-friendly-bacteria-3-billion-60-kapsula",
+   "name": "Holland & Barrett Live Friendly Bacteria 3 Billion",
+   "brand": "Holland & Barrett",
+   "pack": "60 kapsula",
+   "form": "caps",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "probiotic"
+   ],
+   "daily": "1 kapsula",
+   "price": 255000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-05",
+     "qty": 1,
+     "months": 6,
+     "disc": 21,
+     "expDisc": 30,
+     "stockDisc": 0,
+     "price": 202000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Lactobacillus acidophilus va Bifidobacterium shtammlari, 3 milliard foydali bakteriya. Ichak uchun yumshoq boshlang'ich formula. Vegan.",
+    "ru": "Штаммы Lactobacillus acidophilus и Bifidobacterium, 3 млрд полезных бактерий. Мягкая формула для кишечника.",
+    "en": "Four-strain blend with L. acidophilus and Bifidobacterium, 3 billion live bacteria. Vegan."
+   },
+   "img": "img/10.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 202000,
+   "maxDisc": 21,
+   "goals": [
+    "hazm"
+   ]
+  },
+  {
+   "id": 12,
+   "sku": "VP-012",
+   "slug": "holland-barrett-zinc-15mg-60-tabletka",
+   "name": "Holland & Barrett Zinc 15mg",
+   "brand": "Holland & Barrett",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "zinc"
+   ],
+   "daily": "1 tabletka",
+   "price": 100000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2029-04",
+     "qty": 1,
+     "months": 29,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 100000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Yuqori dozali rux (15 mg). Rux immun tizimining normal ishlashiga hissa qo'shadi. Vegan.",
+    "ru": "Цинк в высокой дозировке (15 мг). Цинк способствует нормальной работе иммунной системы.",
+    "en": "High-strength zinc 15mg. Zinc contributes to normal immune function. Vegan."
+   },
+   "img": "img/11.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 100000,
+   "maxDisc": 0,
+   "goals": [
+    "immun"
+   ]
+  },
+  {
+   "id": 13,
+   "sku": "VP-013",
+   "slug": "holland-barrett-vitamin-c-1000mg-240-tabletka",
+   "name": "Holland & Barrett Vitamin C 1000mg",
+   "brand": "Holland & Barrett",
+   "pack": "240 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitc"
+   ],
+   "daily": "1 tabletka",
+   "price": 420000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-07",
+     "qty": 1,
+     "months": 8,
+     "disc": 15,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 357000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "1000 mg C vitamini. Immun tizimi, kollagen hosil bo'lishi va charchoqni kamaytirishga hissa qo'shadi. 240 tabletka — 8 oyga yetadi.",
+    "ru": "1000 мг витамина C. Для иммунитета, образования коллагена и уменьшения усталости. 240 таблеток — на 8 месяцев.",
+    "en": "1000mg vitamin C for immune function and collagen formation. 240 tablets, an 8-month supply."
+   },
+   "img": "img/12.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 357000,
+   "maxDisc": 15,
+   "goals": [
+    "immun"
+   ]
+  },
+  {
+   "id": 14,
+   "sku": "VP-014",
+   "slug": "holland-barrett-multivitamins-240-tabletka",
+   "name": "Holland & Barrett Multivitamins",
+   "brand": "Holland & Barrett",
+   "pack": "240 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka",
+   "price": 210000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2027-07",
+     "qty": 2,
+     "months": 8,
+     "disc": 20,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 168000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Organizmga kerakli 13 ta vitaminning barchasi. Katta 240 tabletkali qadoq.",
+    "ru": "Все 13 необходимых организму витаминов. Большая упаковка 240 таблеток.",
+    "en": "All thirteen vitamins the body needs. Large 240-tablet pack."
+   },
+   "img": "img/13.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 168000,
+   "maxDisc": 20,
+   "goals": []
+  },
+  {
+   "id": 15,
+   "sku": "VP-015",
+   "slug": "holland-barrett-multivitamin-effervescent-20-tabletka",
+   "name": "Holland & Barrett Multivitamin Effervescent",
+   "brand": "Holland & Barrett",
+   "pack": "20 tabletka",
+   "form": "eff",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka suvda",
+   "price": 70000,
+   "stock": 4,
+   "batches": [
+    {
+     "exp": "2027-10",
+     "qty": 4,
+     "months": 11,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 63000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Suvda eriydigan multivitamin, apelsin ta'mi. Tabletka yutish qiyin bo'lganlar uchun qulay.",
+    "ru": "Шипучий мультивитамин со вкусом апельсина. Удобно, если трудно глотать таблетки.",
+    "en": "Orange-flavour effervescent multivitamin, an easy alternative to swallowing pills."
+   },
+   "img": "img/14.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 63000,
+   "maxDisc": 10,
+   "goals": []
+  },
+  {
+   "id": 16,
+   "sku": "VP-016",
+   "slug": "holland-barrett-iron-vitamin-c-14mg-30-tabletka",
+   "name": "Holland & Barrett Iron & Vitamin C 14mg",
+   "brand": "Holland & Barrett",
+   "pack": "30 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "iron",
+    "vitc"
+   ],
+   "daily": "1 tabletka",
+   "price": 80000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2028-05",
+     "qty": 2,
+     "months": 18,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 80000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Temir va C vitamini. Temir charchoqni kamaytirishga yordam beradi, C vitamini temir so'rilishini oshiradi. Vegan.",
+    "ru": "Железо и витамин C. Железо помогает уменьшить усталость, витамин C улучшает усвоение железа.",
+    "en": "Iron with vitamin C. Iron helps reduce tiredness; vitamin C increases iron absorption. Vegan."
+   },
+   "img": "img/15.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 80000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya"
+   ]
+  },
+  {
+   "id": 17,
+   "sku": "VP-017",
+   "slug": "h-b-expert-advanced-multivits-minerals-60-tabletka",
+   "name": "H&B Expert Advanced Multivits & Minerals",
+   "brand": "Holland & Barrett",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka",
+   "price": 260000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2027-07",
+     "qty": 2,
+     "months": 8,
+     "disc": 16,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 218000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Kengaytirilgan formula: 23 vitamin va mineral, yuqori dozalar. Butun organizm uchun har kunlik yordam.",
+    "ru": "Расширенная формула: 23 витамина и минерала в высоких дозах. Ежедневная поддержка всего организма.",
+    "en": "Advanced high-strength formula with 23 vitamins and minerals."
+   },
+   "img": "img/16.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 218000,
+   "maxDisc": 16,
+   "goals": []
+  },
+  {
+   "id": 18,
+   "sku": "VP-018",
+   "slug": "holland-barrett-baby-vitamin-d3-liquid-drops-15-ml",
+   "name": "Holland & Barrett Baby Vitamin D3 Liquid Drops",
+   "brand": "Holland & Barrett",
+   "pack": "15 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "0+ (tug'ilgandan)",
+   "nut": [
+    "vitd"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-11",
+     "qty": 1,
+     "months": 12,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 135000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Chaqaloqlar uchun ta'msiz D3 tomchilari, tug'ilgandan boshlab. Suyaklarning normal o'sishi uchun. Dozani qadoq va shifokor tavsiyasiga ko'ra bering.",
+    "ru": "Капли D3 без вкуса для младенцев с рождения. Для нормального роста костей. Дозировка — по упаковке и рекомендации врача.",
+    "en": "Unflavoured vitamin D3 drops for babies from birth."
+   },
+   "img": "img/17.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 135000,
+   "maxDisc": 10,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 19,
+   "sku": "VP-019",
+   "slug": "h-b-precision-magnesium-zinc-90-tabletka",
+   "name": "H&B Precision Magnesium & Zinc",
+   "brand": "Holland & Barrett",
+   "pack": "90 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "magnesium",
+    "zinc"
+   ],
+   "daily": null,
+   "price": 210000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2029-03",
+     "qty": 2,
+     "months": 28,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 210000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Sport bilan shug'ullanuvchilar uchun magniy va rux. Mushak tiklanishi va charchoqni kamaytirishga yordam beradi. Vegan.",
+    "ru": "Магний и цинк для спортсменов. Помогают восстановлению мышц и уменьшению усталости.",
+    "en": "Magnesium and zinc for training days: muscle function and reduced fatigue. Vegan."
+   },
+   "img": "img/18.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 210000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 20,
+   "sku": "VP-020",
+   "slug": "haliborange-multivitamins-calcium-iron-30-tabletka",
+   "name": "Haliborange Multivitamins Calcium & Iron",
+   "brand": "Haliborange",
+   "pack": "30 tabletka",
+   "form": "chew",
+   "ages": [
+    "kids"
+   ],
+   "age": "3+ yosh",
+   "nut": [
+    "multi",
+    "calcium",
+    "iron"
+   ],
+   "daily": "1 tabletka (chaynab)",
+   "price": 135000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2028-04",
+     "qty": 3,
+     "months": 17,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 135000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Bolalar uchun apelsin ta'mli chaynaladigan tabletka: kalsiy, temir, D vitamini. Suyaklar o'sishi va bilish faoliyatini qo'llab-quvvatlaydi.",
+    "ru": "Жевательные таблетки со вкусом апельсина для детей: кальций, железо, витамин D. Для роста костей и когнитивных функций.",
+    "en": "Orange chewable tablets for kids with calcium, iron and vitamin D."
+   },
+   "img": "img/19.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 135000,
+   "maxDisc": 0,
+   "goals": [
+    "energiya",
+    "suyak"
+   ]
+  },
+  {
+   "id": 21,
+   "sku": "VP-021",
+   "slug": "haliborange-softies-omega-3-multivitamins-50-dona",
+   "name": "Haliborange Softies Omega-3 & Multivitamins",
+   "brand": "Haliborange",
+   "pack": "50 dona",
+   "form": "gummy",
+   "ages": [
+    "kids"
+   ],
+   "age": "3–12 yosh",
+   "nut": [
+    "omega3",
+    "multi"
+   ],
+   "daily": null,
+   "price": 170000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-08",
+     "qty": 1,
+     "months": 9,
+     "disc": 18,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 139000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Omega-3 va multivitaminli yumshoq marmeladlar, apelsin ta'mi. 3–12 yoshli bolalar uchun.",
+    "ru": "Мягкие пастилки с омега-3 и мультивитаминами, вкус апельсина. Для детей 3–12 лет.",
+    "en": "Orange softies with omega-3 and multivitamins for children aged 3–12."
+   },
+   "img": "img/20.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 139000,
+   "maxDisc": 18,
+   "goals": [
+    "miya"
+   ]
+  },
+  {
+   "id": 22,
+   "sku": "VP-022",
+   "slug": "haliborange-softies-multivitamins-strawberry-50-dona",
+   "name": "Haliborange Softies Multivitamins (Strawberry)",
+   "brand": "Haliborange",
+   "pack": "50 dona",
+   "form": "gummy",
+   "ages": [
+    "kids"
+   ],
+   "age": "3–12 yosh",
+   "nut": [
+    "multi",
+    "vitd"
+   ],
+   "daily": null,
+   "price": 162000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-04",
+     "qty": 1,
+     "months": 17,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 162000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Qulupnay ta'mli multivitamin marmeladlar, D vitamini bilan boyitilgan. Har kunlik sog'lom o'sish uchun.",
+    "ru": "Мультивитаминные пастилки со вкусом клубники, обогащены витамином D.",
+    "en": "Strawberry multivitamin softies, rich in vitamin D."
+   },
+   "img": "img/21.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 162000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 23,
+   "sku": "VP-023",
+   "slug": "haliborange-halibaby-toddler-multivitamins-liquid-250-ml",
+   "name": "Haliborange HaliBaby & Toddler Multivitamins Liquid",
+   "brand": "Haliborange",
+   "pack": "250 ml",
+   "form": "liquid",
+   "ages": [
+    "kids"
+   ],
+   "age": "1 oy+",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 162000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2028-01",
+     "qty": 3,
+     "months": 14,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 162000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Chaqaloq va kichik bolalar uchun apelsin ta'mli suyuq multivitamin, 1 oylikdan boshlab. 250 ml.",
+    "ru": "Жидкий мультивитамин со вкусом апельсина для малышей с 1 месяца. 250 мл.",
+    "en": "Orange-flavour liquid multivitamin for babies and toddlers from 1 month. 250ml."
+   },
+   "img": "img/22.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 162000,
+   "maxDisc": 0,
+   "goals": []
+  },
+  {
+   "id": 24,
+   "sku": "VP-024",
+   "slug": "kirkland-signature-children-s-multivitamin-gummies-160-dona",
+   "name": "Kirkland Signature Children's Multivitamin Gummies",
+   "brand": "Kirkland",
+   "pack": "160 dona",
+   "form": "gummy",
+   "ages": [
+    "kids"
+   ],
+   "age": "3+ yosh",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 250000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-11",
+     "qty": 1,
+     "months": 12,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 225000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "AQSh brendi Kirkland: bolalar uchun mevali multivitamin marmeladlar. 160 dona — uzoq muddatga yetadi.",
+    "ru": "Kirkland (США): фруктовые мультивитаминные мармеладки для детей. 160 штук.",
+    "en": "Kirkland children's fruit multivitamin gummies, 160 count."
+   },
+   "img": "img/23.webp",
+   "origin": "AQSh",
+   "best": 225000,
+   "maxDisc": 10,
+   "goals": []
+  },
+  {
+   "id": 25,
+   "sku": "VP-025",
+   "slug": "natures-aid-mini-drops-vitamin-d3-50-ml",
+   "name": "Natures Aid Mini Drops Vitamin D3",
+   "brand": "Natures Aid",
+   "pack": "50 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "0+ (tug'ilgandan)",
+   "nut": [
+    "vitd"
+   ],
+   "daily": null,
+   "price": 190000,
+   "stock": 6,
+   "batches": [
+    {
+     "exp": "2027-02",
+     "qty": 6,
+     "months": 3,
+     "disc": 45,
+     "expDisc": 40,
+     "stockDisc": 5,
+     "price": 104000,
+     "reasons": [
+      "expiry",
+      "stock"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Chaqaloq va bolalar uchun D3 tomchilari, shakar qo'shilmagan. Suyak va tishlar uchun. 50 ml.",
+    "ru": "Капли D3 для младенцев и детей без добавленного сахара. Для костей и зубов. 50 мл.",
+    "en": "Vitamin D3 drops for infants and children, no added sugar. 50ml."
+   },
+   "img": "img/24.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 104000,
+   "maxDisc": 45,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 26,
+   "sku": "VP-026",
+   "slug": "natures-aid-mini-drops-dha-lemon-50-ml",
+   "name": "Natures Aid Mini Drops DHA (Lemon)",
+   "brand": "Natures Aid",
+   "pack": "50 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "3 oy – 5 yosh",
+   "nut": [
+    "omega3"
+   ],
+   "daily": null,
+   "price": 170000,
+   "stock": 4,
+   "batches": [
+    {
+     "exp": "2027-02",
+     "qty": 4,
+     "months": 3,
+     "disc": 40,
+     "expDisc": 40,
+     "stockDisc": 0,
+     "price": 102000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "DHA va EPA ga boy omega-3 tomchilari, limon ta'mi. Ko'krak suti bilan oziqlanuvchi chaqaloqlar va kichik bolalar uchun.",
+    "ru": "Капли омега-3 с высоким содержанием DHA и EPA, вкус лимона. Для младенцев и малышей.",
+    "en": "Omega-3 drops high in DHA and EPA, lemon flavour, ages 3 months–5 years."
+   },
+   "img": "img/25.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 102000,
+   "maxDisc": 40,
+   "goals": [
+    "miya"
+   ]
+  },
+  {
+   "id": 27,
+   "sku": "VP-027",
+   "slug": "natures-aid-mini-drops-multivitamin-orange-50-ml",
+   "name": "Natures Aid Mini Drops Multivitamin (Orange)",
+   "brand": "Natures Aid",
+   "pack": "50 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "3 oy – 5 yosh",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 4,
+   "batches": [
+    {
+     "exp": "2027-07",
+     "qty": 4,
+     "months": 8,
+     "disc": 20,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 120000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "9 ta muhim vitaminli shakarsiz tomchilar. Sun'iy bo'yoq va konservantlarsiz. O'sish va rivojlanish uchun.",
+    "ru": "Капли без сахара с 9 важными витаминами, без искусственных красителей и консервантов.",
+    "en": "Sugar-free liquid multivitamin with nine essential vitamins."
+   },
+   "img": "img/26.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 120000,
+   "maxDisc": 20,
+   "goals": []
+  },
+  {
+   "id": 28,
+   "sku": "VP-028",
+   "slug": "natures-aid-bluey-bone-support-gummies-30-dona",
+   "name": "Natures Aid Bluey Bone Support Gummies",
+   "brand": "Natures Aid",
+   "pack": "30 dona",
+   "form": "gummy",
+   "ages": [
+    "kids"
+   ],
+   "age": "3–12 yosh",
+   "nut": [
+    "vitd",
+    "calcium"
+   ],
+   "daily": null,
+   "price": 210000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2027-05",
+     "qty": 2,
+     "months": 6,
+     "disc": 15,
+     "expDisc": 30,
+     "stockDisc": 0,
+     "price": 178000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Suyak uchun D3 va K2 vitaminli tropik ta'mli marmeladlar. Qo'shilgan shakarsiz, vegan.",
+    "ru": "Тропические мармеладки с витаминами D3 и K2 для костей. Без добавленного сахара.",
+    "en": "Tropical gummies with vitamins D3 and K2 for growing bones. No added sugar, vegan."
+   },
+   "img": "img/27.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 178000,
+   "maxDisc": 15,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 29,
+   "sku": "VP-029",
+   "slug": "bassetts-kids-multivitamins-3-6-strawberry-60-dona",
+   "name": "Bassetts Kids Multivitamins 3–6 (Strawberry)",
+   "brand": "Bassetts",
+   "pack": "60 dona",
+   "form": "gummy",
+   "ages": [
+    "kids"
+   ],
+   "age": "3–6 yosh",
+   "nut": [
+    "multi",
+    "vitc",
+    "vitd"
+   ],
+   "daily": "1 dona",
+   "price": 220000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-02",
+     "qty": 1,
+     "months": 3,
+     "disc": 40,
+     "expDisc": 40,
+     "stockDisc": 0,
+     "price": 132000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "3–6 yoshli bolalar uchun qulupnay ta'mli multivitamin marmelad: 11 ta nutriyent. Kuniga 1 dona: 80 mg C vitamini, 5 mkg D vitamini, A, E, B2, B6, B12 vitaminlari, foliy kislota, biotin, pantoten kislota va rux. C, D vitaminlari va rux immun tizimini, B2 va B12 charchoqni kamaytirishni qo'llab-quvvatlaydi. Qo'shilgan shakarsiz, tabiiy rang va ta'm.",
+    "ru": "Мультивитаминные мармеладки со вкусом клубники для детей 3–6 лет: 11 нутриентов. 1 штука в день: витамин C 80 мг, D 5 мкг, A, E, B2, B6, B12, фолиевая кислота, биотин, пантотеновая кислота и цинк. Витамины C, D и цинк поддерживают иммунитет, B2 и B12 помогают уменьшить усталость. Без добавленного сахара.",
+    "en": "Strawberry multivitamin gummies for children aged 3–6 with 11 nutrients. One a day: vitamin C 80 mg, vitamin D 5 µg, vitamins A, E, B2, B6, B12, folic acid, biotin, pantothenic acid and zinc. No added sugar, natural colours and flavours."
+   },
+   "img": "img/28.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 132000,
+   "maxDisc": 40,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 30,
+   "sku": "VP-030",
+   "slug": "health-magnesium-gummies-strawberry-60-dona",
+   "name": "Health& Magnesium Gummies (Strawberry)",
+   "brand": "Health&",
+   "pack": "60 dona",
+   "form": "gummy",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "magnesium"
+   ],
+   "daily": null,
+   "price": 190000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-08",
+     "qty": 1,
+     "months": 9,
+     "disc": 16,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 159000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Qulupnay ta'mli magniy marmeladlari. Magniy charchoqni kamaytirishga va mushaklar faoliyatiga hissa qo'shadi.",
+    "ru": "Магниевые мармеладки со вкусом клубники. Магний помогает уменьшить усталость.",
+    "en": "Strawberry magnesium gummies."
+   },
+   "img": "img/29.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 159000,
+   "maxDisc": 16,
+   "goals": [
+    "energiya",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 31,
+   "sku": "VP-031",
+   "slug": "zipvit-biotin-12-000-g-zinc-selenium-180-tabletka",
+   "name": "Zipvit Biotin 12,000µg + Zinc & Selenium",
+   "brand": "Zipvit",
+   "pack": "180 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "biotin",
+    "zinc",
+    "beauty"
+   ],
+   "daily": "2 tabletka",
+   "price": 250000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-02",
+     "qty": 1,
+     "months": 15,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 250000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Biotin 12 000 mkg, rux 10 mg va selen 55 mkg. Soch, teri va tirnoqlarning normal holatini saqlashga hissa qo'shadi. 3 oylik qadoq.",
+    "ru": "Биотин 12 000 мкг, цинк 10 мг и селен 55 мкг для волос, кожи и ногтей. Упаковка на 3 месяца.",
+    "en": "Biotin 12,000µg with zinc 10mg and selenium 55mcg for hair, skin and nails."
+   },
+   "img": "img/30.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 250000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "gozallik"
+   ]
+  },
+  {
+   "id": 32,
+   "sku": "VP-032",
+   "slug": "vitabiotics-wellkid-calcium-liquid-150-ml",
+   "name": "Vitabiotics Wellkid Calcium Liquid",
+   "brand": "Vitabiotics",
+   "pack": "150 ml",
+   "form": "liquid",
+   "ages": [
+    "kids"
+   ],
+   "age": "4+ yosh",
+   "nut": [
+    "calcium",
+    "magnesium",
+    "zinc",
+    "vitd"
+   ],
+   "daily": null,
+   "price": 125000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-03",
+     "qty": 1,
+     "months": 16,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 125000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Kalsiy, magniy, rux va D vitaminli mazali suyuqlik. O'sayotgan bolalar suyaklari uchun. 150 ml.",
+    "ru": "Вкусная жидкость с кальцием, магнием, цинком и витамином D для растущих костей. 150 мл.",
+    "en": "Liquid calcium with magnesium, zinc and vitamin D for growing bones. 150ml."
+   },
+   "img": "img/31.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 125000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya",
+    "suyak",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 33,
+   "sku": "VP-033",
+   "slug": "vitabiotics-wellbaby-multi-vitamin-liquid-150-ml",
+   "name": "Vitabiotics Wellbaby Multi-vitamin Liquid",
+   "brand": "Vitabiotics",
+   "pack": "150 ml",
+   "form": "liquid",
+   "ages": [
+    "kids"
+   ],
+   "age": "6 oy+",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 12,
+   "batches": [
+    {
+     "exp": "2027-04",
+     "qty": 3,
+     "months": 5,
+     "disc": 21,
+     "expDisc": 30,
+     "stockDisc": 10,
+     "price": 119000,
+     "reasons": [
+      "expiry",
+      "stock"
+     ]
+    },
+    {
+     "exp": "2027-11",
+     "qty": 4,
+     "months": 12,
+     "disc": 20,
+     "expDisc": 10,
+     "stockDisc": 10,
+     "price": 120000,
+     "reasons": [
+      "expiry",
+      "stock"
+     ]
+    },
+    {
+     "exp": "2028-01",
+     "qty": 5,
+     "months": 14,
+     "disc": 10,
+     "expDisc": 0,
+     "stockDisc": 10,
+     "price": 135000,
+     "reasons": [
+      "stock"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "14 ta vitamin va mineral: tez o'sish va rivojlanish davri uchun. 150 ml suyuqlik.",
+    "ru": "14 витаминов и минералов для периода быстрого роста и развития. 150 мл.",
+    "en": "14 vitamins and minerals for a time of rapid growth. 150ml liquid."
+   },
+   "img": "img/32.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 119000,
+   "maxDisc": 21,
+   "goals": []
+  },
+  {
+   "id": 34,
+   "sku": "VP-034",
+   "slug": "vitabiotics-wellbaby-multi-vitamin-drops-30-ml",
+   "name": "Vitabiotics Wellbaby Multi-vitamin Drops",
+   "brand": "Vitabiotics",
+   "pack": "30 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "4 oy+",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 166000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-12",
+     "qty": 1,
+     "months": 13,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 166000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Chaqaloqlar uchun 14 ta vitamin va mineralli yumshoq tomchilar: A, C, D vitaminlari, temir, rux, foliy kislota. 30 ml.",
+    "ru": "Мягкие капли с 14 витаминами и минералами для малышей: A, C, D, железо, цинк, фолиевая кислота. 30 мл.",
+    "en": "Gentle drops with 14 vitamins and minerals for babies. 30ml."
+   },
+   "img": "img/33.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 166000,
+   "maxDisc": 0,
+   "goals": []
+  },
+  {
+   "id": 35,
+   "sku": "VP-035",
+   "slug": "vitabiotics-feroglobin-liquid-200-ml",
+   "name": "Vitabiotics Feroglobin Liquid",
+   "brand": "Vitabiotics",
+   "pack": "200 ml",
+   "form": "liquid",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "iron",
+    "b"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 3,
+   "batches": [
+    {
+     "exp": "2027-11",
+     "qty": 1,
+     "months": 12,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 135000,
+     "reasons": [
+      "expiry"
+     ]
+    },
+    {
+     "exp": "2028-03",
+     "qty": 2,
+     "months": 16,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 150000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Asal va apelsin ta'mli temirli suyuqlik, oshqozonga yumshoq. Temir charchoqni kamaytirishga va gemoglobin hosil bo'lishiga hissa qo'shadi. 200 ml.",
+    "ru": "Жидкое железо со вкусом мёда и апельсина, мягкое для желудка. Для образования гемоглобина. 200 мл.",
+    "en": "Gentle liquid iron in honey and orange flavour. 200ml."
+   },
+   "img": "img/34.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 135000,
+   "maxDisc": 10,
+   "goals": [
+    "energiya"
+   ]
+  },
+  {
+   "id": 36,
+   "sku": "VP-036",
+   "slug": "vitabiotics-feroglobin-capsules-30-kapsula",
+   "name": "Vitabiotics Feroglobin Capsules",
+   "brand": "Vitabiotics",
+   "pack": "30 kapsula",
+   "form": "caps",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "iron",
+    "folic",
+    "b"
+   ],
+   "daily": "1 kapsula",
+   "price": 150000,
+   "stock": 7,
+   "batches": [
+    {
+     "exp": "2027-09",
+     "qty": 2,
+     "months": 10,
+     "disc": 15,
+     "expDisc": 10,
+     "stockDisc": 5,
+     "price": 128000,
+     "reasons": [
+      "expiry",
+      "stock"
+     ]
+    },
+    {
+     "exp": "2028-09",
+     "qty": 2,
+     "months": 22,
+     "disc": 5,
+     "expDisc": 0,
+     "stockDisc": 5,
+     "price": 142000,
+     "reasons": [
+      "stock"
+     ]
+    },
+    {
+     "exp": "2028-11",
+     "qty": 3,
+     "months": 24,
+     "disc": 5,
+     "expDisc": 0,
+     "stockDisc": 5,
+     "price": 142000,
+     "reasons": [
+      "stock"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Sekin ajraladigan kapsulada yumshoq temir, foliy kislota va B12. Charchoq va holsizlikni kamaytirishga yordam beradi.",
+    "ru": "Мягкое железо в капсуле с замедленным высвобождением, фолиевая кислота и B12.",
+    "en": "Gentle slow-release iron with folic acid and B12."
+   },
+   "img": "img/35.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 128000,
+   "maxDisc": 15,
+   "goals": [
+    "energiya"
+   ]
+  },
+  {
+   "id": 37,
+   "sku": "VP-037",
+   "slug": "vitabiotics-wellbaby-vitamin-d3-drops-30-ml",
+   "name": "Vitabiotics Wellbaby Vitamin D3 Drops",
+   "brand": "Vitabiotics",
+   "pack": "30 ml",
+   "form": "drops",
+   "ages": [
+    "kids"
+   ],
+   "age": "0–4 yosh",
+   "nut": [
+    "vitd"
+   ],
+   "daily": null,
+   "price": 165000,
+   "stock": 5,
+   "batches": [
+    {
+     "exp": "2027-09",
+     "qty": 2,
+     "months": 10,
+     "disc": 10,
+     "expDisc": 10,
+     "stockDisc": 0,
+     "price": 148000,
+     "reasons": [
+      "expiry"
+     ]
+    },
+    {
+     "exp": "2028-01",
+     "qty": 3,
+     "months": 14,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 165000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Bola suyaklarining normal o'sishi uchun 10 mkg D3 tomchilari. Tug'ilgandan 4 yoshgacha. 30 ml.",
+    "ru": "Капли D3 10 мкг для нормального роста костей у детей, от рождения до 4 лет. 30 мл.",
+    "en": "Vitamin D3 10µg drops for normal bone growth, birth to 4 years. 30ml."
+   },
+   "img": "img/36.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 148000,
+   "maxDisc": 10,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 38,
+   "sku": "VP-038",
+   "slug": "vitabiotics-pregnacare-original-30-tabletka",
+   "name": "Vitabiotics Pregnacare Original",
+   "brand": "Vitabiotics",
+   "pack": "30 tabletka",
+   "form": "tab",
+   "ages": [
+    "other"
+   ],
+   "age": "Homiladorlar",
+   "nut": [
+    "multi",
+    "folic"
+   ],
+   "daily": "1 tabletka",
+   "price": 135000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-02",
+     "qty": 1,
+     "months": 15,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 135000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Homiladorlik davri uchun ishlab chiqilgan vitamin kompleksi, 400 mkg foliy kislota bilan. Qo'llashdan oldin shifokor bilan maslahatlashing.",
+    "ru": "Витаминный комплекс для беременных с фолиевой кислотой 400 мкг. Перед применением проконсультируйтесь с врачом.",
+    "en": "Pregnancy multivitamin with 400µg folic acid."
+   },
+   "img": "img/37.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 135000,
+   "maxDisc": 0,
+   "goals": [
+    "homila"
+   ]
+  },
+  {
+   "id": 39,
+   "sku": "VP-039",
+   "slug": "vitabiotics-ultra-magnesium-60-tabletka",
+   "name": "Vitabiotics Ultra Magnesium",
+   "brand": "Vitabiotics",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "magnesium"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2029-11",
+     "qty": 1,
+     "months": 36,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 150000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Yuqori sifatli magniy. Charchoqni kamaytirish, mushak va asab tizimining normal ishlashiga hissa qo'shadi.",
+    "ru": "Магний высокого качества для уменьшения усталости и нормальной работы мышц и нервной системы.",
+    "en": "High-quality magnesium to safeguard dietary intake."
+   },
+   "img": "img/38.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 150000,
+   "maxDisc": 0,
+   "goals": [
+    "energiya",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 40,
+   "sku": "VP-040",
+   "slug": "vitabiotics-ultra-vitamin-d-400-iu-96-tabletka",
+   "name": "Vitabiotics Ultra Vitamin D 400 IU",
+   "brand": "Vitabiotics",
+   "pack": "96 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 110000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2029-11",
+     "qty": 1,
+     "months": 36,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 110000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "10 mkg D3 vitamini — Buyuk Britaniya Sog'liqni saqlash vazirligi tavsiya qilgan kunlik daraja. 96 mini tabletka.",
+    "ru": "10 мкг витамина D3 — суточный уровень, рекомендованный Минздравом Великобритании. 96 мини-таблеток.",
+    "en": "10µg vitamin D, the daily level recommended by the UK Department of Health."
+   },
+   "img": "img/39.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 110000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 41,
+   "sku": "VP-041",
+   "slug": "vitabiotics-ultra-zinc-15mg-with-copper-60-tabletka",
+   "name": "Vitabiotics Ultra Zinc 15mg with Copper",
+   "brand": "Vitabiotics",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "zinc"
+   ],
+   "daily": null,
+   "price": 110000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2029-10",
+     "qty": 1,
+     "months": 35,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 110000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "15 mg rux va mis. Immun tizimi, teri, soch, tirnoq va ko'rishning normal holatiga hissa qo'shadi.",
+    "ru": "15 мг цинка с медью для иммунитета, кожи, волос, ногтей и зрения.",
+    "en": "Zinc 15mg with copper for immunity, skin, hair, nails and vision."
+   },
+   "img": "img/40.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 110000,
+   "maxDisc": 0,
+   "goals": [
+    "immun"
+   ]
+  },
+  {
+   "id": 42,
+   "sku": "VP-042",
+   "slug": "vitabiotics-perfectil-original-30-tabletka",
+   "name": "Vitabiotics Perfectil Original",
+   "brand": "Vitabiotics",
+   "pack": "30 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "biotin",
+    "zinc",
+    "beauty"
+   ],
+   "daily": "1 tabletka",
+   "price": 220000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-04",
+     "qty": 1,
+     "months": 17,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 220000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Teri, soch va tirnoq uchun ichkaridan oziqlantiruvchi kompleks: biotin, rux, selen va boshqalar.",
+    "ru": "Комплекс для кожи, волос и ногтей: биотин, цинк, селен и другие нутриенты.",
+    "en": "Skin, hair and nails formula with biotin, zinc and selenium."
+   },
+   "img": "img/41.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 220000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "gozallik"
+   ]
+  },
+  {
+   "id": 43,
+   "sku": "VP-043",
+   "slug": "nutrition-geeks-iron-energy-120-tabletka",
+   "name": "Nutrition Geeks Iron Energy+",
+   "brand": "Nutrition Geeks",
+   "pack": "120 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "iron",
+    "vitc",
+    "b",
+    "folic"
+   ],
+   "daily": null,
+   "price": 170000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-08",
+     "qty": 1,
+     "months": 21,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 170000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Temir, C vitamini, B12 va foliy kislota. Gemoglobin hosil bo'lishi va charchoqni kamaytirish uchun. 120 vegan tabletka.",
+    "ru": "Железо, витамин C, B12 и фолиевая кислота для образования гемоглобина. 120 веганских таблеток.",
+    "en": "Iron with vitamin C, B12 and folic acid. 120 vegan tablets."
+   },
+   "img": "img/42.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 170000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "energiya"
+   ]
+  },
+  {
+   "id": 44,
+   "sku": "VP-044",
+   "slug": "nutrition-geeks-biotin-growth-10-000-g-180-tabletka",
+   "name": "Nutrition Geeks Biotin Growth+ 10,000µg",
+   "brand": "Nutrition Geeks",
+   "pack": "180 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "biotin",
+    "zinc",
+    "beauty"
+   ],
+   "daily": null,
+   "price": 180000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-01",
+     "qty": 1,
+     "months": 14,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 180000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "10 000 mkg biotin, rux va selen. Soch, teri va tirnoqlar uchun. 180 vegan tabletka.",
+    "ru": "10 000 мкг биотина, цинк и селен для волос, кожи и ногтей. 180 веганских таблеток.",
+    "en": "Biotin 10,000µg with zinc and selenium. 180 vegan tablets."
+   },
+   "img": "img/43.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 180000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "gozallik"
+   ]
+  },
+  {
+   "id": 45,
+   "sku": "VP-045",
+   "slug": "nutrition-geeks-collagen-glow-up-powder-420-g",
+   "name": "Nutrition Geeks Collagen Glow Up Powder",
+   "brand": "Nutrition Geeks",
+   "pack": "420 g",
+   "form": "powder",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "collagen",
+    "beauty"
+   ],
+   "daily": null,
+   "price": 377000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2031-04",
+     "qty": 2,
+     "months": 53,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 377000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Uch marta filtrlangan gidrolizlangan kollagen kukuni. Ichimlik yoki taomga oson aralashadi. 420 g.",
+    "ru": "Трижды фильтрованный гидролизованный коллаген в порошке. Легко смешивается. 420 г.",
+    "en": "Triple-filtered hydrolysed collagen powder. 420g."
+   },
+   "img": "img/44.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 377000,
+   "maxDisc": 0,
+   "goals": [
+    "gozallik"
+   ]
+  },
+  {
+   "id": 46,
+   "sku": "VP-046",
+   "slug": "nutrition-geeks-magnesium-glycinate-3-in-1-90-kapsula",
+   "name": "Nutrition Geeks Magnesium Glycinate 3-in-1",
+   "brand": "Nutrition Geeks",
+   "pack": "90 kapsula",
+   "form": "caps",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "magnesium"
+   ],
+   "daily": null,
+   "price": 245000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-11",
+     "qty": 1,
+     "months": 24,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 245000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Uch shakldagi magniy: glitsinat, sitrat va malat. Yaxshi so'riladigan kompleks. 90 kapsula.",
+    "ru": "Магний в трёх формах: глицинат, цитрат и малат. 90 капсул.",
+    "en": "Three forms of magnesium: glycinate, citrate and malate. 90 capsules."
+   },
+   "img": "img/45.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 245000,
+   "maxDisc": 0,
+   "goals": [
+    "energiya",
+    "asab",
+    "sport"
+   ]
+  },
+  {
+   "id": 47,
+   "sku": "VP-047",
+   "slug": "vitamin-store-multivitamins-100-tabletka",
+   "name": "Vitamin Store Multivitamins",
+   "brand": "Vitaminstore",
+   "pack": "100 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": null,
+   "price": 70000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2027-02",
+     "qty": 2,
+     "months": 3,
+     "disc": 40,
+     "expDisc": 40,
+     "stockDisc": 0,
+     "price": 42000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "Arzon va qulay kundalik multivitamin. 100 tabletka.",
+    "ru": "Доступный ежедневный мультивитамин. 100 таблеток.",
+    "en": "Affordable everyday multivitamin, 100 tablets."
+   },
+   "img": "img/46.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 42000,
+   "maxDisc": 40,
+   "goals": []
+  },
+  {
+   "id": 48,
+   "sku": "VP-048",
+   "slug": "tesco-health-high-strength-vitamin-d-25-g-120-tabletka",
+   "name": "Tesco Health High Strength Vitamin D 25µg",
+   "brand": "Tesco",
+   "pack": "120 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitd"
+   ],
+   "daily": "1 tabletka",
+   "price": 110000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2028-03",
+     "qty": 2,
+     "months": 16,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 110000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Yuqori dozali D vitamini 25 mkg (1000 IU). Suyak va immunitet uchun. 120 tabletka.",
+    "ru": "Витамин D в высокой дозе 25 мкг (1000 МЕ). 120 таблеток.",
+    "en": "High-strength vitamin D 25µg. 120 tablets."
+   },
+   "img": "img/47.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 110000,
+   "maxDisc": 0,
+   "goals": [
+    "immun",
+    "suyak"
+   ]
+  },
+  {
+   "id": 49,
+   "sku": "VP-049",
+   "slug": "tesco-health-multivitamins-iron-90-tabletka",
+   "name": "Tesco Health Multivitamins & Iron",
+   "brand": "Tesco",
+   "pack": "90 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi",
+    "iron"
+   ],
+   "daily": "1 tabletka",
+   "price": 80000,
+   "stock": 2,
+   "batches": [
+    {
+     "exp": "2027-02",
+     "qty": 2,
+     "months": 3,
+     "disc": 40,
+     "expDisc": 40,
+     "stockDisc": 0,
+     "price": 48000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "13 ta muhim vitamin va temir. Har kunlik umumiy salomatlik uchun. 90 tabletka.",
+    "ru": "13 витаминов и железо для общего самочувствия. 90 таблеток.",
+    "en": "13 essential nutrients with iron. 90 tablets."
+   },
+   "img": "img/48.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 48000,
+   "maxDisc": 40,
+   "goals": [
+    "energiya"
+   ]
+  },
+  {
+   "id": 50,
+   "sku": "VP-050",
+   "slug": "tesco-health-folic-acid-400-g-180-tabletka",
+   "name": "Tesco Health Folic Acid 400µg",
+   "brand": "Tesco",
+   "pack": "180 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult",
+    "other"
+   ],
+   "age": "14+",
+   "nut": [
+    "folic"
+   ],
+   "daily": "1 tabletka",
+   "price": 90000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-08",
+     "qty": 1,
+     "months": 21,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 90000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Foliy kislota — homiladorlikni rejalashtirish va homiladorlik davrida tavsiya etiladi. 180 tabletka.",
+    "ru": "Фолиевая кислота при планировании и во время беременности. 180 таблеток.",
+    "en": "Folic acid for pregnancy planning and pregnancy. 180 tablets."
+   },
+   "img": "img/49.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 90000,
+   "maxDisc": 0,
+   "goals": [
+    "homila"
+   ]
+  },
+  {
+   "id": 51,
+   "sku": "VP-051",
+   "slug": "vitamin-store-a-z-multivitamins-minerals-45-tabletka",
+   "name": "Vitamin Store A-Z Multivitamins & Minerals",
+   "brand": "Vitaminstore",
+   "pack": "45 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka",
+   "price": 100000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-06",
+     "qty": 1,
+     "months": 7,
+     "disc": 20,
+     "expDisc": 20,
+     "stockDisc": 0,
+     "price": 80000,
+     "reasons": [
+      "expiry"
+     ]
+    }
+   ],
+   "desc": {
+    "uz": "A–Z multivitamin va minerallar. Kundalik qulay tanlov. 45 tabletka.",
+    "ru": "Мультивитамины и минералы от A до Z. 45 таблеток.",
+    "en": "A–Z multivitamins and minerals. 45 tablets."
+   },
+   "img": "img/50.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 80000,
+   "maxDisc": 20,
+   "goals": []
+  },
+  {
+   "id": 52,
+   "sku": "VP-052",
+   "slug": "vitamin-health-ginkgo-biloba-60-tabletka",
+   "name": "Vitamin Health Ginkgo Biloba",
+   "brand": "Vitamin Health",
+   "pack": "60 tabletka",
+   "form": "tab",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "herbal"
+   ],
+   "daily": null,
+   "price": 150000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2027-12",
+     "qty": 1,
+     "months": 13,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 150000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Ginkgo biloba barg ekstrakti — an'anaviy o'simlik qo'shimchasi. Qon suyultiruvchi dori qabul qilsangiz, shifokor bilan maslahatlashing.",
+    "ru": "Экстракт листьев гинкго билоба. При приёме антикоагулянтов проконсультируйтесь с врачом.",
+    "en": "Ginkgo biloba leaf extract herbal supplement."
+   },
+   "img": "img/51.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 150000,
+   "maxDisc": 0,
+   "goals": [
+    "miya"
+   ]
+  },
+  {
+   "id": 53,
+   "sku": "VP-053",
+   "slug": "tesco-health-high-strength-vitamin-c-zinc-20-tabletka",
+   "name": "Tesco Health High Strength Vitamin C & Zinc",
+   "brand": "Tesco",
+   "pack": "20 tabletka",
+   "form": "eff",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "vitc",
+    "zinc"
+   ],
+   "daily": "1 tabletka suvda",
+   "price": 100000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-08",
+     "qty": 1,
+     "months": 21,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 100000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Suvda eriydigan C vitamini va rux tabletkalari, apelsin ta'mi. Immun tizimi uchun. 20 tabletka.",
+    "ru": "Шипучие таблетки с витамином C и цинком, вкус апельсина. 20 таблеток.",
+    "en": "Effervescent vitamin C and zinc, orange flavour. 20 tablets."
+   },
+   "img": "img/52.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 100000,
+   "maxDisc": 0,
+   "goals": [
+    "immun"
+   ]
+  },
+  {
+   "id": 54,
+   "sku": "VP-054",
+   "slug": "tesco-health-multivitamins-minerals-effervescent-20-tabletka",
+   "name": "Tesco Health Multivitamins & Minerals Effervescent",
+   "brand": "Tesco",
+   "pack": "20 tabletka",
+   "form": "eff",
+   "ages": [
+    "adult"
+   ],
+   "age": "14+",
+   "nut": [
+    "multi"
+   ],
+   "daily": "1 tabletka suvda",
+   "price": 100000,
+   "stock": 1,
+   "batches": [
+    {
+     "exp": "2028-04",
+     "qty": 1,
+     "months": 17,
+     "disc": 0,
+     "expDisc": 0,
+     "stockDisc": 0,
+     "price": 100000,
+     "reasons": []
+    }
+   ],
+   "desc": {
+    "uz": "Suvda eriydigan multivitamin va minerallar, apelsin ta'mi. 20 tabletka.",
+    "ru": "Шипучие мультивитамины и минералы со вкусом апельсина. 20 таблеток.",
+    "en": "Effervescent multivitamins and minerals, orange flavour. 20 tablets."
+   },
+   "img": "img/53.webp",
+   "origin": "Buyuk Britaniya",
+   "best": 100000,
+   "maxDisc": 0,
+   "goals": []
+  }
+ ]
+}
