@@ -20,6 +20,8 @@ import os
 import math
 import subprocess
 import sys
+import tempfile
+import zlib
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
@@ -290,9 +292,15 @@ def render(spec_path, out_path):
     spec = json.load(open(spec_path, encoding="utf-8"))
     r = Renderer()
     total = sum(s["dur"] for s in spec["scenes"])
+    # Original generated background music (royalty-free); seed varies per video file.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import make_music
+    seed = spec.get("music_seed", zlib.crc32(os.path.basename(out_path).encode()))
+    music_path = tempfile.NamedTemporaryFile(suffix=".wav", delete=False).name
+    make_music.write_wav(music_path, make_music.generate(total, seed)[0])
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-           "-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=44100:cl=stereo",
+           "-i", music_path,
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
            "-profile:v", "high", "-c:a", "aac", "-b:a", "128k", "-shortest",
            "-movflags", "+faststart", out_path]
@@ -308,7 +316,9 @@ def render(spec_path, out_path):
                 im = Image.blend(r.bg, im, max(0.0, min(1.0, a)))
             ff.stdin.write(im.tobytes())
     ff.stdin.close()
-    if ff.wait() != 0:
+    rc = ff.wait()
+    os.unlink(music_path)
+    if rc != 0:
         raise SystemExit("ffmpeg failed")
 
 
