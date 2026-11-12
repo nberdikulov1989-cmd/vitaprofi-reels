@@ -92,64 +92,80 @@ def bass(f, dur):
     return s * env(n, 0.01, 0.35)
 
 
+STYLES = {
+    # name: (bpm choices, swing, kick beats, offbeat bass, drum level)
+    "pop":   ([104, 108, 112, 116], 0.0, (0, 1, 2, 3), False, 1.0),
+    "house": ([118, 120, 122, 124], 0.0, (0, 1, 2, 3), True, 1.0),
+    "lofi":  ([84, 88, 92], 0.18, (0, 2.5), False, 0.7),
+    "funk":  ([96, 100, 104], 0.1, (0, 0.75, 2, 2.5), False, 0.9),
+}
+
+
 def generate(seconds, seed=0):
     rng = np.random.default_rng(seed)
-    bpm = int(rng.choice([104, 108, 112, 116]))
+    style = list(STYLES)[int(rng.integers(len(STYLES)))]
+    bpms, swing, kicks, offbeat_bass, drum_lvl = STYLES[style]
+    bpm = int(rng.choice(bpms))
     key = int(rng.choice(KEYS))
     prog = PROGRESSIONS[int(rng.integers(len(PROGRESSIONS)))]
-    arp_pat = [[0, 1, 2, 1], [0, 2, 1, 2], [0, 1, 2, 3]][int(rng.integers(3))]
+    arp_pat = [[0, 1, 2, 1], [0, 2, 1, 2], [0, 1, 2, 3], [3, 2, 1, 0]][int(rng.integers(4))]
+    bright = float(rng.uniform(0.3, 1.4))      # lead timbre
+    arp_oct = int(rng.choice([0, 12]))          # lead register
     beat = 60.0 / bpm
     bar = 4 * beat
     total = seconds + 1.0
     L = np.zeros(int(total * SR) + SR)
     R = np.zeros_like(L)
 
+    def eighth(i):  # time of the i-th 8th note within a bar, with swing
+        return i * beat / 2 + (swing * beat / 2 if i % 2 else 0.0)
+
     nbars = int(np.ceil(total / bar))
     for b in range(nbars):
         t0 = b * bar
         deg = prog[b % len(prog)]
         notes = chord_notes(key, deg)
-        p = pad([hz(m - 12) for m in notes], bar) * 0.22
+        p = pad([hz(m - 12) for m in notes], bar) * (0.28 if style == "lofi" else 0.22)
         add(L, t0, p)
         add(R, t0, p)
-        # bass: root on 1 and 3, octave pop on the "and" of 4
         root = hz(notes[0] - 24)
-        for k, (pos, f) in enumerate([(0, root), (2, root), (3.5, root * 2)]):
-            s = bass(f, beat * (0.9 if k < 2 else 0.45)) * 0.32
+        if offbeat_bass:
+            bass_hits = [(q + 0.5, root, 0.4) for q in range(4)]
+        else:
+            bass_hits = [(0, root, 0.9), (2, root, 0.9), (3.5, root * 2, 0.45)]
+        for pos, f, ln in bass_hits:
+            s = bass(f, beat * ln) * 0.32
             add(L, t0 + pos * beat, s)
             add(R, t0 + pos * beat, s)
-        # arpeggio in 8ths, panned slightly
         arp_notes = notes + [notes[0] + 12]
         for i in range(8):
-            m = arp_notes[arp_pat[i % 4]] + (12 if i >= 4 and b % 2 else 0)
-            s = pluck(hz(m), beat * 0.6) * 0.16
+            m = arp_notes[arp_pat[i % 4]] + arp_oct + (12 if i >= 4 and b % 2 and not arp_oct else 0)
+            s = pluck(hz(m), beat * 0.6, bright) * 0.16
             pan = 0.35 if i % 2 else -0.35
-            add(L, t0 + i * beat / 2, s * (1 - pan) / 1.35)
-            add(R, t0 + i * beat / 2, s * (1 + pan) / 1.35)
-        # drums: drop them in bar 0 for a soft intro
-        if b > 0:
-            for q in range(4):
-                add(L, t0 + q * beat, kick() * 0.5)
-                add(R, t0 + q * beat, kick() * 0.5)
+            add(L, t0 + eighth(i), s * (1 - pan) / 1.35)
+            add(R, t0 + eighth(i), s * (1 + pan) / 1.35)
+        if b > 0:  # bar 0 is a soft intro without drums
+            for q in kicks:
+                add(L, t0 + q * beat, kick() * 0.5 * drum_lvl)
+                add(R, t0 + q * beat, kick() * 0.5 * drum_lvl)
             for q in (1, 3):
-                c = clap(rng) * 0.10
+                c = clap(rng) * 0.10 * drum_lvl
                 add(L, t0 + q * beat, c)
                 add(R, t0 + q * beat, c)
             for e in range(8):
-                h = hat(rng) * (0.05 if e % 2 else 0.03)
-                add(L, t0 + e * beat / 2, h * 0.8)
-                add(R, t0 + e * beat / 2, h * 1.2)
+                lvl = (0.06 if e % 2 else 0.02) if style == "house" else (0.05 if e % 2 else 0.03)
+                h = hat(rng) * lvl * drum_lvl
+                add(L, t0 + eighth(e), h * 0.8)
+                add(R, t0 + eighth(e), h * 1.2)
 
     n = int(seconds * SR)
     out = np.stack([L[:n], R[:n]], axis=1)
-    # fades
     fi, fo = int(0.4 * SR), int(1.2 * SR)
     out[:fi] *= np.linspace(0, 1, fi)[:, None]
     out[-fo:] *= np.linspace(1, 0, fo)[:, None]
-    # gentle soft-clip + normalize to about -14 dBFS peak-ish background level
     out = np.tanh(out * 1.4)
     out *= 0.6 / max(1e-9, np.max(np.abs(out)))
-    return out, {"bpm": bpm, "key": key, "progression": prog}
+    return out, {"style": style, "bpm": bpm, "key": key, "progression": prog}
 
 
 def write_wav(path, data):
