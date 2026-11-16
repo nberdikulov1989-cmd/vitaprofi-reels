@@ -2,10 +2,12 @@
 """Build the two daily VitaProfi Reels: one vitamin-education video and one
 in-stock product video, plus Uzbek captions.
 
-Usage: python3 tools/daily.py [YYYY-MM-DD]
+Usage: python3 tools/daily.py [--slot am|pm] [YYYY-MM-DD]
+  --slot pm (default): evening post, files named <date>-...
+  --slot am:           morning post, files named <date>-am-...
 Outputs:
-  videos/<date>-vitamin.mp4, videos/<date>-product.mp4
-  posts/<date>.json   (captions, video URLs, chosen topic/product)
+  videos/<date>[-am]-vitamin.mp4, videos/<date>[-am]-product.mp4
+  posts/<date>[-am].json   (captions, video URLs, chosen topic/product)
   state/history.json  (what was posted when, to avoid repeats)
 """
 import datetime as dt
@@ -158,27 +160,37 @@ def render(spec, out):
 
 def main():
     tz = ZoneInfo("Asia/Tashkent")
-    today = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else dt.datetime.now(tz).date()
+    args = sys.argv[1:]
+    slot = "pm"
+    if "--slot" in args:
+        i = args.index("--slot")
+        slot = args[i + 1]
+        del args[i:i + 2]
+    if slot not in ("am", "pm"):
+        raise SystemExit("--slot must be am or pm")
+    today = dt.date.fromisoformat(args[0]) if args else dt.datetime.now(tz).date()
     d = today.isoformat()
+    key = d if slot == "pm" else f"{d}-am"  # file-name stem
     catalog = load(os.path.join(ROOT, "data", "products.json"), None)
     topics = load(os.path.join(ROOT, "data", "topics.json"), [])
     hist_path = os.path.join(ROOT, "state", "history.json")
-    history = [h for h in load(hist_path, []) if h["date"] != d]  # re-runs replace the day
+    history = [h for h in load(hist_path, [])
+               if not (h["date"] == d and h.get("slot", "pm") == slot)]  # re-runs replace the slot
 
-    topic = pick_topic(topics, history, today.toordinal())
+    topic = pick_topic(topics, history, today.toordinal() * 2 + (slot == "pm"))
     prod, live = pick_product(catalog["products"], history, today)
     view = product_view(prod, live)
     image = os.path.join(ROOT, "images", f"{prod['img'].split('/')[-1].split('.')[0]}.jpg")
 
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "posts"), exist_ok=True)
-    vid_v = f"videos/{d}-vitamin.mp4"
-    vid_p = f"videos/{d}-product.mp4"
+    vid_v = f"videos/{key}-vitamin.mp4"
+    vid_p = f"videos/{key}-product.mp4"
     render(topic_spec(topic), os.path.join(ROOT, vid_v))
     render(product_spec(prod, view, image), os.path.join(ROOT, vid_p))
 
     post = {
-        "date": d, "catalog_fetched": catalog.get("fetched"),
+        "date": d, "slot": slot, "catalog_fetched": catalog.get("fetched"),
         "vitamin": {"topic": topic["id"], "video": vid_v, "pages_url": f"{PAGES_BASE}/{vid_v}",
                     "raw_url": f"{RAW_BASE}/{vid_v}", "thumb_offset": 2500, "caption": topic_caption(topic)},
         "product": {"sku": prod["sku"], "name": prod["name"], "video": vid_p,
@@ -186,11 +198,11 @@ def main():
                     "thumb_offset": 5500, "caption": product_caption(prod, view)},
         "status": "awaiting_approval",
     }
-    json.dump(post, open(os.path.join(ROOT, "posts", f"{d}.json"), "w", encoding="utf-8"),
+    json.dump(post, open(os.path.join(ROOT, "posts", f"{key}.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
-    history.append({"date": d, "topic": topic["id"], "sku": prod["sku"]})
+    history.append({"date": d, "slot": slot, "topic": topic["id"], "sku": prod["sku"]})
     json.dump(history, open(hist_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(json.dumps({"date": d, "topic": topic["id"], "sku": prod["sku"], "name": prod["name"]},
+    print(json.dumps({"date": d, "slot": slot, "topic": topic["id"], "sku": prod["sku"], "name": prod["name"]},
                      ensure_ascii=False))
 
 
