@@ -43,5 +43,11 @@
   "date": "2026-11-16",
   "topic": "b12",
   "sku": "VP-009"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "pm",
+  "topic": "bcomplex",
+  "sku": "VP-014"
  }
 ]
