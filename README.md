@@ -1,16 +1,16 @@
 # VitaProfi Reels
 
-Daily Instagram Reels for [vitaprofi.uz](https://vitaprofi.uz): one vitamin-education video and one in-stock product video, with Uzbek captions. Posted twice a day: a morning set at 08:00 (`--slot am`) and an evening set at 18:00 (default `--slot pm`), Asia/Tashkent.
+Daily Instagram Reels for [vitaprofi.uz](https://vitaprofi.uz): one vitamin-education video and one in-stock product video, with Uzbek captions. Posted three times a day (Asia/Tashkent): 08:00 (`--slot am`), 14:00 (`--slot md`) and 20:00 (default `--slot pm`).
 
 ## How it works
 
-1. `tools/daily.py [--slot am|pm] [YYYY-MM-DD]` picks the day's content:
+1. `tools/daily.py [--slot am|md|pm] [YYYY-MM-DD]` picks the day's content:
    - **Vitamin topic**: next unused topic from `data/topics.json` (cycles once all are used).
    - **Product**: in-stock item with an unexpired batch, preferring the biggest discount and skipping anything posted in the last 30 days.
 2. `tools/make_video.py` renders each video (1080×1920, 30 fps, H.264 + silent AAC) with Pillow and ffmpeg.
 3. Output:
-   - `videos/<date>[-am]-vitamin.mp4`, `videos/<date>[-am]-product.mp4` (`-am` only for the morning slot)
-   - `posts/<date>[-am].json`: captions, public video URLs, cover frame offsets, status
+   - `videos/<date>[-am|-md]-vitamin.mp4`, `videos/<date>[-am|-md]-product.mp4` (no suffix for the evening slot)
+   - `posts/<date>[-am|-md].json`: captions, public video URLs, cover frame offsets, status
    - `state/history.json`: posting history used to avoid repeats
 4. After the owner approves, the videos are posted to Instagram (`vitaprofiuz`) via the Windsor.ai connector using the GitHub Pages URL.
 

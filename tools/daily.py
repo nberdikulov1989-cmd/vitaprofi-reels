@@ -2,12 +2,13 @@
 """Build the two daily VitaProfi Reels: one vitamin-education video and one
 in-stock product video, plus Uzbek captions.
 
-Usage: python3 tools/daily.py [--slot am|pm] [YYYY-MM-DD]
-  --slot pm (default): evening post, files named <date>-...
-  --slot am:           morning post, files named <date>-am-...
+Usage: python3 tools/daily.py [--slot am|md|pm] [YYYY-MM-DD]
+  --slot am:           morning post (08:00), files named <date>-am-...
+  --slot md:           midday post (14:00), files named <date>-md-...
+  --slot pm (default): evening post (20:00), files named <date>-...
 Outputs:
-  videos/<date>[-am]-vitamin.mp4, videos/<date>[-am]-product.mp4
-  posts/<date>[-am].json   (captions, video URLs, chosen topic/product)
+  videos/<date>[-am|-md]-vitamin.mp4, videos/<date>[-am|-md]-product.mp4
+  posts/<date>[-am|-md].json   (captions, video URLs, chosen topic/product)
   state/history.json  (what was posted when, to avoid repeats)
 """
 import datetime as dt
@@ -49,6 +50,9 @@ def fmt_sum(n):
 def exp_text(exp):  # "2027-02" -> "2027-yil fevral"
     y, m = exp.split("-")
     return f"{y}-yil {MONTHS[int(m) - 1]}"
+
+
+SLOTS = ("am", "md", "pm")  # posting order within a day
 
 
 def pick_topic(topics, history, day_index):
@@ -166,18 +170,18 @@ def main():
         i = args.index("--slot")
         slot = args[i + 1]
         del args[i:i + 2]
-    if slot not in ("am", "pm"):
-        raise SystemExit("--slot must be am or pm")
+    if slot not in SLOTS:
+        raise SystemExit("--slot must be am, md or pm")
     today = dt.date.fromisoformat(args[0]) if args else dt.datetime.now(tz).date()
     d = today.isoformat()
-    key = d if slot == "pm" else f"{d}-am"  # file-name stem
+    key = d if slot == "pm" else f"{d}-{slot}"  # file-name stem
     catalog = load(os.path.join(ROOT, "data", "products.json"), None)
     topics = load(os.path.join(ROOT, "data", "topics.json"), [])
     hist_path = os.path.join(ROOT, "state", "history.json")
     history = [h for h in load(hist_path, [])
                if not (h["date"] == d and h.get("slot", "pm") == slot)]  # re-runs replace the slot
 
-    topic = pick_topic(topics, history, today.toordinal() * 2 + (slot == "pm"))
+    topic = pick_topic(topics, history, today.toordinal() * len(SLOTS) + SLOTS.index(slot))
     prod, live = pick_product(catalog["products"], history, today)
     view = product_view(prod, live)
     image = os.path.join(ROOT, "images", f"{prod['img'].split('/')[-1].split('.')[0]}.jpg")
