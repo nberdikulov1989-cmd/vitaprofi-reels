@@ -55,5 +55,11 @@
   "slot": "am",
   "topic": "folic",
   "sku": "VP-027"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "pm",
+  "topic": "vita",
+  "sku": "VP-051"
  }
 ]
