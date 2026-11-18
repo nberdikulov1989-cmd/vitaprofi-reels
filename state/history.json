@@ -49,5 +49,11 @@
   "slot": "pm",
   "topic": "bcomplex",
   "sku": "VP-014"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "am",
+  "topic": "folic",
+  "sku": "VP-027"
  }
 ]
