@@ -61,5 +61,11 @@
   "slot": "pm",
   "topic": "vita",
   "sku": "VP-051"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "am",
+  "topic": "vite",
+  "sku": "VP-021"
  }
 ]
