@@ -67,5 +67,11 @@
   "slot": "am",
   "topic": "vite",
   "sku": "VP-021"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "pm",
+  "topic": "vitk",
+  "sku": "VP-017"
  }
 ]
