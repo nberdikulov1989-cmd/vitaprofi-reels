@@ -79,5 +79,11 @@
   "slot": "am",
   "topic": "probiotic",
   "sku": "VP-030"
+ },
+ {
+  "date": "2026-11-20",
+  "slot": "pm",
+  "topic": "collagen",
+  "sku": "VP-013"
  }
 ]
