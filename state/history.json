@@ -91,5 +91,11 @@
   "slot": "am",
   "topic": "biotin",
   "sku": "VP-028"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "pm",
+  "topic": "kids_vitd",
+  "sku": "VP-036"
  }
 ]
