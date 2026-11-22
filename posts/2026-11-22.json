@@ -9,7 +9,9 @@
   "raw_url": "https://raw.githubusercontent.com/nberdikulov1989-cmd/vitaprofi-reels/main/videos/2026-11-22-vitamin.mp4",
   "thumb_offset": 2500,
   "caption": "💡 Bolalarga D vitamini\n\n✅ D vitamini bolalarda suyaklarning normal o'sishi uchun zarur\n✅ Tomchi shaklidagi D3 kichik bolalarga berish uchun qulay\n✅ Dozani yoshga qarab qadoq va shifokor ko'rsatmasiga ko'ra bering\n\n⚠️ Bolalarga kattalar dozasini bermang — faqat bolalar uchun mo'ljallangan mahsulotlar. Dozani qadoqdagi ko'rsatmaga qarab tanlang. Homilador, emizikli yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.\n\nSavollar bo'lsa — Telegram: @vitaprofiuz\n🌐 vitaprofi.uz\n\nBiologik faol qo'shimcha. Dori vositasi emas.\n\n#vitaprofi #bolalar #dvitamini #onalar #vitaminlar #sogliq #toshkent #ozbekiston",
-  "status": "scheduled"
+  "status": "posted",
+  "posted_at": "2026-11-22T18:02:19+05:00",
+  "media_id": "17900052378613328"
  },
  "product": {
   "sku": "VP-036",
@@ -22,5 +24,5 @@
   "status": "held",
   "hold_reason": "Caption/video show discounted price 128000 with stock 7, but only 2 boxes (exp 2027-09) are at that price; other 5 are 142000. Catalog snapshot 15 days old."
  },
- "status": "partial"
+ "status": "partial_posted"
 }
