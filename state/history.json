@@ -97,5 +97,11 @@
   "slot": "pm",
   "topic": "kids_vitd",
   "sku": "VP-036"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "am",
+  "topic": "kids_multi",
+  "sku": "VP-002"
  }
 ]
