@@ -109,5 +109,11 @@
   "slot": "am",
   "topic": "multi",
   "sku": "VP-015"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "pm",
+  "topic": "selenium",
+  "sku": "VP-018"
  }
 ]
