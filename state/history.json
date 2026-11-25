@@ -121,5 +121,11 @@
   "slot": "am",
   "topic": "iodine",
   "sku": "VP-024"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "pm",
+  "topic": "potassium",
+  "sku": "VP-035"
  }
 ]
