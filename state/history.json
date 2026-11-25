@@ -115,5 +115,11 @@
   "slot": "pm",
   "topic": "selenium",
   "sku": "VP-018"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "am",
+  "topic": "iodine",
+  "sku": "VP-024"
  }
 ]
