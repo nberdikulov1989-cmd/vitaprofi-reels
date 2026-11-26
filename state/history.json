@@ -133,5 +133,11 @@
   "slot": "am",
   "topic": "winter_immunity",
   "sku": "VP-037"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "pm",
+  "topic": "storage",
+  "sku": "VP-001"
  }
 ]
