@@ -127,5 +127,11 @@
   "slot": "pm",
   "topic": "potassium",
   "sku": "VP-035"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "am",
+  "topic": "winter_immunity",
+  "sku": "VP-037"
  }
 ]
